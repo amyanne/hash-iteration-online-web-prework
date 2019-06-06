@@ -13,7 +13,7 @@ def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |kids_name, age|
     if age < 13 
       happy_birthday(birthday_kids)
-    end
+    
   else 
     puts "You are too old for this."
   end
