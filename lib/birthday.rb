@@ -14,6 +14,7 @@ def age_appropriate_birthday(birthday_kids)
     if age < 13 
       happy_birthday(birthday_kids)
     end
+  end
 end
 
 
